@@ -1,0 +1,175 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  /* color: #40514e; */
+  /* background-image: url("https://www.dc.com/sites/default/files/Char_Gallery_Flash_758_6055049612af35.61135649.jpg"); */
+}
+h1 {
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  font-family: "Fugaz One", cursive;
+  color: #cd0404;
+}
+h2 {
+  font-size: 2.2rem;
+  font-family: "Montserrat", sans-serif;
+  color: #cd0404;
+  font-weight: normal;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #dc0000;
+}
+a {
+  color: #dc0000;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+a:hover {
+  color: whitesmoke;
+}
+.copyright {
+  font-size: 0.75rem;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+.top-container {
+  background-color: #fa9494;
+  padding-top: 100px;
+  position: relative;
+}
+.middle-container {
+  /* background-color: #e4f9f5; */
+  background-color: #ffd4d4;
+  padding: 2rem 0;
+}
+.bottom-container {
+  background-color: #fa9494;
+  padding: 3rem 0 2rem;
+}
+.bottom-lightning {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+.top-lightning {
+  position: absolute;
+  right: 170px;
+  top: 70px;
+}
+.middle-flash {
+  padding: 5%;
+}
+hr {
+  margin: 0px;
+  padding: 0.5rem;
+}
+.pfp {
+  /* width: 250px;
+  height: 250px; */
+  width: 20%;
+  border-radius: 100%;
+}
+.speedforce {
+  /* width: 250px;
+  height: 250px; */
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+.regeneration {
+  /* width: 250px;
+  height: 250px; */
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+}
+.time-travel {
+  /* width: 250px;
+  height: 250px; */
+  width: 40%;
+  background-color: #fa9494;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+.forensics {
+  /* width: 250px;
+  height: 250px; */
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  /* line-height: 2; */
+}
+.img-text {
+  padding: 30px;
+}
+.btn {
+  background: #dc0000;
+  background-image: -webkit-linear-gradient(top, #dc0000, #850000);
+  background-image: -moz-linear-gradient(top, #dc0000, #850000);
+  background-image: -ms-linear-gradient(top, #dc0000, #850000);
+  background-image: -o-linear-gradient(top, #dc0000, #850000);
+  background-image: linear-gradient(to bottom, #dc0000, #850000);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ff0032;
+  background-image: -webkit-linear-gradient(top, #ff0032, #eb455f);
+  background-image: -moz-linear-gradient(top, #ff0032, #eb455f);
+  background-image: -ms-linear-gradient(top, #ff0032, #eb455f);
+  background-image: -o-linear-gradient(top, #ff0032, #eb455f);
+  background-image: linear-gradient(to bottom, #ff0032, #eb455f);
+  text-decoration: none;
+}
+
+hr {
+  border-color: #dc0000;
+  border-style: none none dotted;
+  /* width: 5%; */
+  width: 5%;
+  border-width: 10px;
+  margin: auto;
+}
+.contact-me {
+  padding: 5rem;
+}
+.contact-me p {
+  padding: 2.5rem;
+  width: 50%;
+  margin: auto;
+}
+.contact-me h2 {
+  font-weight: bold;
+}
+.footer-link {
+  padding: 2rem;
+}
+p {
+  line-height: 2;
+}
+.skills h2 {
+  padding-top: 1.5rem;
+}

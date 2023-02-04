@@ -173,3 +173,172 @@ p {
 .skills h2 {
   padding-top: 1.5rem;
 }
+
+/* For low resolution tablets */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .top-container {
+    padding-top: 4rem;
+  }
+  h1 {
+    font-size: 4rem;
+    margin: 50px auto 0 auto;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+  .top-lightning {
+    width: 15%;
+    position: absolute;
+    left: 1.875rem;
+    top: 1.875rem;
+  }
+  .bottom-lightning {
+    width: 25%;
+    position: absolute;
+    top: 14.375rem;
+    left: 16.875rem;
+  }
+  .middle-flash {
+    width: 50%;
+  }
+  .pfp {
+    width: 25%;
+  }
+  .intro {
+    width: 60%;
+  }
+  hr {
+    width: 20%;
+    border-width: 0.8rem;
+  }
+  .skill-row {
+    width: 70%;
+  }
+  .speedforce {
+    width: 30%;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  .img-text {
+    text-align: center;
+  }
+  .regeneration {
+    width: 30%;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  .forensics {
+    width: 30%;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  .time-travel {
+    width: 30%;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+  .contact-me {
+    margin: auto;
+    padding: 3rem;
+  }
+  .contact-me p {
+    padding: 2rem;
+    padding-bottom: 4rem;
+    width: 80%;
+  }
+  .footer-link {
+    padding: 1rem;
+  }
+}
+/* For mobile screens */
+@media screen and (max-width: 480px) {
+  .top-container {
+    padding-top: 2rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .top-lightning {
+    position: absolute;
+    top: 1.25rem;
+    width: 20%;
+    left: 2.1875rem;
+  }
+  .bottom-lightning {
+    width: 20%;
+    position: absolute;
+    left: 14.375rem;
+    bottom: 13.437rem;
+  }
+  .middle-flash {
+    width: 50%;
+  }
+  .pfp {
+    width: 30%;
+  }
+  .intro {
+    width: 70%;
+  }
+  hr {
+    width: 10%;
+    border-width: 0.5rem;
+  }
+  .skill-row {
+    width: 70%;
+  }
+  .img-text {
+    text-align: center;
+  }
+  .speedforce {
+    width: 40%;
+    float: none;
+    display: block;
+    margin: auto;
+  }
+  .regeneration {
+    width: 40%;
+    float: none;
+    display: block;
+    margin: auto;
+  }
+  .time-travel {
+    width: 40%;
+    float: none;
+    display: block;
+    margin: auto;
+  }
+  .forensics {
+    width: 40%;
+    float: none;
+    display: block;
+    margin: auto;
+  }
+  .contact-me {
+    margin: auto;
+    padding: 3rem;
+  }
+  .contact-me p {
+    padding: 2rem;
+    padding-bottom: 4rem;
+    width: 90%;
+  }
+  .footer-link {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  .copyright{
+    font-size: 0.5rem;
+    padding-top: 0.5rem;
+  }
+}
+/* For tablets
+@media screen and (min-width:768px) and (max-width:1024px) {
+  
+} */
